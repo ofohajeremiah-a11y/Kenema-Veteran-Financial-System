@@ -1,0 +1,14 @@
+{
+  "name": "kenema-veteran-financial-system",
+  "version": "1.1.0",
+  "description": "Kenema Veteran Financial Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
